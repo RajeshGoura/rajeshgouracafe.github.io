@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <h1 id="title">MY OWN SURVEY FORM</h1>
+  <meta>
+  <link rel="stylesheet" href="styles_sf.css">
+  
+  </meta>
+  </head>
+  <body>
+    
+    <p id="description"> this form will ask for some of your information</p>
+    <form id="survey-form">
+      <fieldset>
+      <label id="name-label">
+      Enter your name
+      <input type=text id="name"
+      required placeholder="enter your name"></label>
+      <label id="email-label">
+        enter your email<input
+        type=email id="email"
+        required placeholder="enter your email"></label>
+        <label id="number-label">
+          enter your regdno <input
+          type=number id="number"
+          required min=200000000000
+          max=300000000000
+          placeholder="enter your reg no"></label>
+          </fieldset>
+
+          <fieldset>
+            <label>
+              SELECT FROM THE DROPDOWN MENU<select id="dropdown">
+                <option>(which year student you are)</option>
+                <option>1st year</option>
+                <option>2nd year</option>
+                <option>3rd year</option>
+                <option>4th year</option>
+              </select>
+            </label>
+          </fieldset>
+          <fieldset>
+            <label>
+            <input type="radio" value=ds name="resident">dayscholar</label>
+            <label>
+            <input type="radio" value=hs name="resident">hosteler</label>
+            <p>SELECT YOUR CLUBS</p>
+            <label>
+            <input type="checkbox" value=pg> programming club</label>
+            <label>
+            <input type="checkbox" value=3d>3D development</label>
+            <label>
+            <input type="checkbox" value=dance>dancing</label>
+            <label>
+            <input type="checkbox" value=singing>singing</label>
+            </fieldset>
+
+            <fieldset>
+              <label>ANY RECOMMENDATIONS
+IF YOU WANNA GIVE SOME</LABEL>
+              <label>
+              <textarea placeholder="i would like some club for drama and shooting" class=size></textarea>
+                </label>
+                <label>
+                  <input type=submit id="submit">
+                </label>
+
+            </fieldset>
+
+      
+
+ 
+
+    </form>
+
+  </body>
+  
+</html>
